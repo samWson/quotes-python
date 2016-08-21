@@ -13,6 +13,8 @@ class Quote:
         print(output)
 
 # Variables.
+quotes = []
+
 quote1 = "If you're constantly defending something everytime you do it\
 , maybe you've done something fucking indefensible."
 author1 = "Jim Sterling"
@@ -31,8 +33,13 @@ inspiration1 = Quote(quote1, author1, date1)
 inspiration2 = Quote(quote2, author2, date2)
 inspiration3 = Quote(quote3, author3, date3)
 
+# Adding the Qotes objects to quotes[].
+quotes.append(inspiration1)
+quotes.append(inspiration2)
+quotes.append(inspiration3)
+
 # Printing the Quote details.
-inspiration1.display()
-inspiration2.display()
-inspiration3.display()
+quotes[0].display()
+quotes[1].display()
+quotes[2].display()
 
