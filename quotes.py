@@ -43,3 +43,5 @@ quotes[0].display()
 quotes[1].display()
 quotes[2].display()
 
+# TODO: print a random quote from the list
+
